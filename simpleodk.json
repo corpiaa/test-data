@@ -1,12 +1,12 @@
 {
   "data": "submissions/incidentes.geojson",
   "templates": [{
-    "file": "templates/info-pane.tpl",
-    "options": {
-        "timestamp": "today",
-        "image": "foto"
-    }
+    "file": "templates/info-pane.tpl"
   }],
+  "options": {
+    "timestamp": "today",
+    "image": "foto"
+  },
   "filters": [{
     "type": "continuous",
     "field": "today",
