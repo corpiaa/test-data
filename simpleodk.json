@@ -5,7 +5,8 @@
   }],
   "options": {
     "timestamp": "today",
-    "image": "foto"
+    "image": "foto",
+    "color": "tipo"
   },
   "filters": [{
     "type": "continuous",
