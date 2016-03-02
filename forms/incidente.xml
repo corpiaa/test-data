@@ -1,0 +1,986 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Incidente</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="Spanish">
+          <text id="static_instance-listado_madera-9">
+            <value>Catahua</value>
+          </text>
+          <text id="static_instance-listado_madera-8">
+            <value>Almendra</value>
+          </text>
+          <text id="static_instance-listado_comunidades-38">
+            <value>Sapani</value>
+          </text>
+          <text id="static_instance-listado_comunidades-39">
+            <value>Sabaluyo Mamoriari</value>
+          </text>
+          <text id="static_instance-listado_comunidades-34">
+            <value>Nueva Aldea</value>
+          </text>
+          <text id="static_instance-listado_madera-2">
+            <value>Huqiruro</value>
+          </text>
+          <text id="static_instance-listado_madera-1">
+            <value>Cachimbo</value>
+          </text>
+          <text id="static_instance-listado_comunidades-37">
+            <value>Ojeayo</value>
+          </text>
+          <text id="static_instance-listado_madera-7">
+            <value>Moena</value>
+          </text>
+          <text id="static_instance-listado_madera-6">
+            <value>Cumala</value>
+          </text>
+          <text id="static_instance-listado_madera-5">
+            <value>Lupuna</value>
+          </text>
+          <text id="static_instance-listado_madera-4">
+            <value>Copaiba</value>
+          </text>
+          <text id="static_instance-listado_madera-3">
+            <value>Shihuahuaco</value>
+          </text>
+          <text id="static_instance-listado_comunidades-35">
+            <value>Nueva Vista Villa Sol</value>
+          </text>
+          <text id="static_instance-listado_comunidades-36">
+            <value>Centro Selva Verde</value>
+          </text>
+          <text id="static_instance-listado_madera-0">
+            <value>Tornillo</value>
+          </text>
+          <text id="static_instance-listado_comunidades-30">
+            <value>Nueva Esperanza</value>
+          </text>
+          <text id="static_instance-listado_comunidades-31">
+            <value>Union Miraflores Capirona</value>
+          </text>
+          <text id="static_instance-listado_comunidades-32">
+            <value>Onkonoshari - Rio Sepa</value>
+          </text>
+          <text id="static_instance-listado_comunidades-33">
+            <value>Santa Isabel D'Capirona</value>
+          </text>
+          <text id="static_instance-listado_comunidades-29">
+            <value>Villa Maria D'Cumarillo</value>
+          </text>
+          <text id="static_instance-listado_comunidades-28">
+            <value>Takila</value>
+          </text>
+          <text id="static_instance-listado_comunidades-23">
+            <value>Raya</value>
+          </text>
+          <text id="static_instance-listado_comunidades-22">
+            <value>Nuevo San Martin</value>
+          </text>
+          <text id="static_instance-listado_comunidades-21">
+            <value>Raya</value>
+          </text>
+          <text id="static_instance-listado_comunidades-20">
+            <value>Toniromashe</value>
+          </text>
+          <text id="static_instance-listado_comunidades-27">
+            <value>Tzinquiato</value>
+          </text>
+          <text id="static_instance-listado_comunidades-26">
+            <value>Inkare</value>
+          </text>
+          <text id="static_instance-listado_comunidades-25">
+            <value>Centro Pucani</value>
+          </text>
+          <text id="static_instance-listado_comunidades-24">
+            <value>Capajeriato</value>
+          </text>
+          <text id="static_instance-listado_comunidades-8">
+            <value>Apinihua</value>
+          </text>
+          <text id="static_instance-listado_comunidades-9">
+            <value>Centro Apinihua</value>
+          </text>
+          <text id="static_instance-listado_comunidades-0">
+            <value>Bufeo Pozo</value>
+          </text>
+          <text id="static_instance-listado_comunidades-1">
+            <value>Selva Union</value>
+          </text>
+          <text id="static_instance-listado_comunidades-2">
+            <value>Remoque</value>
+          </text>
+          <text id="static_instance-listado_comunidades-3">
+            <value>Santa Rosa De Serjali</value>
+          </text>
+          <text id="static_instance-listado_comunidades-4">
+            <value>Sepahua</value>
+          </text>
+          <text id="static_instance-listado_comunidades-5">
+            <value>Union Miraflores Capirona</value>
+          </text>
+          <text id="static_instance-listado_comunidades-6">
+            <value>Centro Sheboja</value>
+          </text>
+          <text id="static_instance-listado_comunidades-7">
+            <value>Aerija</value>
+          </text>
+          <text id="static_instance-listado_federaciones-4">
+            <value>FECONADIS</value>
+          </text>
+          <text id="static_instance-listado_federaciones-3">
+            <value>FARU</value>
+          </text>
+          <text id="static_instance-listado_federaciones-2">
+            <value>OIYPA</value>
+          </text>
+          <text id="static_instance-listado_federaciones-1">
+            <value>FABU</value>
+          </text>
+          <text id="static_instance-listado_federaciones-0">
+            <value>OIRA</value>
+          </text>
+          <text id="static_instance-listado_comunidades-56">
+            <value>Pucani</value>
+          </text>
+          <text id="static_instance-listado_comunidades-57">
+            <value>Centro Anari</value>
+          </text>
+          <text id="static_instance-listado_comunidades-54">
+            <value>San Taniari</value>
+          </text>
+          <text id="static_instance-listado_comunidades-55">
+            <value>Nueve Hermanos</value>
+          </text>
+          <text id="static_instance-listado_comunidades-52">
+            <value>Anacayali</value>
+          </text>
+          <text id="static_instance-listado_comunidades-53">
+            <value>Tzivetari</value>
+          </text>
+          <text id="static_instance-listado_comunidades-50">
+            <value>Centro Selva Corintoni</value>
+          </text>
+          <text id="static_instance-listado_comunidades-51">
+            <value>Chipani</value>
+          </text>
+          <text id="static_instance-listado_monitores-2">
+            <value>Laster Isminio Rodriguez</value>
+          </text>
+          <text id="static_instance-listado_monitores-3">
+            <value>Hestalin Rios Coronado</value>
+          </text>
+          <text id="static_instance-listado_monitores-0">
+            <value>Rogelio Casique Coronado</value>
+          </text>
+          <text id="static_instance-listado_monitores-1">
+            <value>Llerry</value>
+          </text>
+          <text id="static_instance-listado_monitores-4">
+            <value>Otro…</value>
+          </text>
+          <text id="static_instance-listado_comunidades-49">
+            <value>Shenontiari</value>
+          </text>
+          <text id="static_instance-listado_comunidades-48">
+            <value>Alto Cocani</value>
+          </text>
+          <text id="static_instance-listado_comunidades-45">
+            <value>Alto Cohengua</value>
+          </text>
+          <text id="static_instance-listado_comunidades-44">
+            <value>Union San Francisco</value>
+          </text>
+          <text id="static_instance-listado_comunidades-47">
+            <value>Pandishari</value>
+          </text>
+          <text id="static_instance-listado_comunidades-46">
+            <value>Santa Rosa De Laulate</value>
+          </text>
+          <text id="static_instance-listado_comunidades-41">
+            <value>Lagarto Millar</value>
+          </text>
+          <text id="static_instance-listado_comunidades-40">
+            <value>Anexo Contaniba</value>
+          </text>
+          <text id="static_instance-listado_comunidades-43">
+            <value>Tahuanti</value>
+          </text>
+          <text id="static_instance-listado_comunidades-42">
+            <value>Churinashi</value>
+          </text>
+          <text id="static_instance-listado_madera-17">
+            <value>Otro…</value>
+          </text>
+          <text id="static_instance-listado_madera-16">
+            <value>Yanchama</value>
+          </text>
+          <text id="static_instance-listado_madera-15">
+            <value>Alcanfor Moena</value>
+          </text>
+          <text id="static_instance-listado_madera-14">
+            <value>Caoba</value>
+          </text>
+          <text id="static_instance-listado_madera-13">
+            <value>Cedro</value>
+          </text>
+          <text id="static_instance-listado_madera-12">
+            <value>Pashaco</value>
+          </text>
+          <text id="static_instance-listado_madera-11">
+            <value>Tahuari</value>
+          </text>
+          <text id="static_instance-listado_madera-10">
+            <value>Estoraque</value>
+          </text>
+          <text id="static_instance-listado_comunidades-63">
+            <value>Ramon Castilla</value>
+          </text>
+          <text id="static_instance-listado_comunidades-62">
+            <value>Santa Clara</value>
+          </text>
+          <text id="static_instance-listado_comunidades-61">
+            <value>Centro Huao</value>
+          </text>
+          <text id="static_instance-listado_comunidades-60">
+            <value>Nuevo Belen</value>
+          </text>
+          <text id="static_instance-listado_comunidades-58">
+            <value>Mision Unini</value>
+          </text>
+          <text id="static_instance-listado_comunidades-59">
+            <value>Santa Elena</value>
+          </text>
+          <text id="static_instance-listado_tipo-1">
+            <value>Tala de semillero</value>
+          </text>
+          <text id="static_instance-listado_tipo-0">
+            <value>Tala fuera de POA</value>
+          </text>
+          <text id="static_instance-listado_comunidades-12">
+            <value>Pensilvania</value>
+          </text>
+          <text id="static_instance-listado_comunidades-13">
+            <value>San Juan De Inuya</value>
+          </text>
+          <text id="static_instance-listado_comunidades-10">
+            <value>Galilea</value>
+          </text>
+          <text id="static_instance-listado_comunidades-11">
+            <value>Manishiari</value>
+          </text>
+          <text id="static_instance-listado_comunidades-16">
+            <value>Unini</value>
+          </text>
+          <text id="static_instance-listado_comunidades-17">
+            <value>Mapiato</value>
+          </text>
+          <text id="static_instance-listado_comunidades-14">
+            <value>Sapani</value>
+          </text>
+          <text id="static_instance-listado_comunidades-15">
+            <value>Sheremashi</value>
+          </text>
+          <text id="static_instance-listado_comunidades-18">
+            <value>Nuevo Pozo</value>
+          </text>
+          <text id="static_instance-listado_comunidades-19">
+            <value>Centro Pucani</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <formulario_incidente id="incidente" version="1">
+          <start/>
+          <end/>
+          <today/>
+          <deviceid/>
+          <federacion/>
+          <comunidad/>
+          <tipo/>
+          <grupo_semillero>
+            <pca/>
+            <faja/>
+            <arbol/>
+          </grupo_semillero>
+          <grupo_donde>
+            <coordinadas/>
+            <utm_x/>
+            <utm_y/>
+          </grupo_donde>
+          <foto/>
+          <especie/>
+          <especie_otro/>
+          <dap/>
+          <nombre_monitor/>
+          <nombre_monitor_otro/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </formulario_incidente>
+      </instance>
+      <instance id="listado_monitores">
+        <root>
+          <item>
+            <itextId>static_instance-listado_monitores-0</itextId>
+            <name>rogelio_casique</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_monitores-1</itextId>
+            <name>llerry</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_monitores-2</itextId>
+            <name>laster_isminio_rodriguez</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_monitores-3</itextId>
+            <name>hestalin_rios_coronado</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_monitores-4</itextId>
+            <name>otro</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="listado_comunidades">
+        <root>
+          <item>
+            <itextId>static_instance-listado_comunidades-0</itextId>
+            <federacion>FECONADIS</federacion>
+            <name>bufeo_pozo</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-1</itextId>
+            <federacion>FECONADIS</federacion>
+            <name>selva_union</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-2</itextId>
+            <federacion>FECONADIS</federacion>
+            <name>remoque</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-3</itextId>
+            <federacion>FECONADIS</federacion>
+            <name>santa_rosa_de_serjali</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-4</itextId>
+            <federacion>FECONADIS</federacion>
+            <name>sepahua</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-5</itextId>
+            <federacion>FECONADIS</federacion>
+            <name>union_miraflores_capirona</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-6</itextId>
+            <federacion>FECONADIS</federacion>
+            <name>centro_sheboja</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-7</itextId>
+            <federacion>OIRA</federacion>
+            <name>aerija</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-8</itextId>
+            <federacion>OIRA</federacion>
+            <name>apinihua</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-9</itextId>
+            <federacion>OIRA</federacion>
+            <name>centro_apinihua</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-10</itextId>
+            <federacion>OIRA</federacion>
+            <name>galilea</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-11</itextId>
+            <federacion>OIRA</federacion>
+            <name>manishiari</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-12</itextId>
+            <federacion>OIRA</federacion>
+            <name>pensilvania</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-13</itextId>
+            <federacion>OIRA</federacion>
+            <name>san_juan_de_inuya</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-14</itextId>
+            <federacion>OIRA</federacion>
+            <name>sapani</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-15</itextId>
+            <federacion>OIRA</federacion>
+            <name>sheremashi</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-16</itextId>
+            <federacion>OIRA</federacion>
+            <name>unini</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-17</itextId>
+            <federacion>OIRA</federacion>
+            <name>mapiato</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-18</itextId>
+            <federacion>OIRA</federacion>
+            <name>nuevo_pozo</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-19</itextId>
+            <federacion>OIRA</federacion>
+            <name>centro_pucani</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-20</itextId>
+            <federacion>OIRA</federacion>
+            <name>toniromashe</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-21</itextId>
+            <federacion>OIRA</federacion>
+            <name>raya</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-22</itextId>
+            <federacion>OIRA</federacion>
+            <name>nuevo_san_martin</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-23</itextId>
+            <federacion>OIRA</federacion>
+            <name>raya</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-24</itextId>
+            <federacion>FABU</federacion>
+            <name>capajeriato</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-25</itextId>
+            <federacion>FABU</federacion>
+            <name>centro_pucani</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-26</itextId>
+            <federacion>FABU</federacion>
+            <name>inkare</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-27</itextId>
+            <federacion>FABU</federacion>
+            <name>tzinquiato</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-28</itextId>
+            <federacion>FABU</federacion>
+            <name>takila</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-29</itextId>
+            <federacion>FABU</federacion>
+            <name>villa_maria_cumarillo</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-30</itextId>
+            <federacion>FABU</federacion>
+            <name>nueva_esperanza</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-31</itextId>
+            <federacion>FABU</federacion>
+            <name>union_miraflores_capirona</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-32</itextId>
+            <federacion>FABU</federacion>
+            <name>onkonoshari_rio_sepa</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-33</itextId>
+            <federacion>FABU</federacion>
+            <name>santa_isabel_capirona</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-34</itextId>
+            <federacion>FABU</federacion>
+            <name>nueva_aldea</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-35</itextId>
+            <federacion>FABU</federacion>
+            <name>nueva_vista_villa_sol</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-36</itextId>
+            <federacion>FABU</federacion>
+            <name>centro_selva_verde</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-37</itextId>
+            <federacion>FABU</federacion>
+            <name>ojeayo</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-38</itextId>
+            <federacion>FARU</federacion>
+            <name>sapani</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-39</itextId>
+            <federacion>FARU</federacion>
+            <name>sabaluyo_mamoriari</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-40</itextId>
+            <federacion>FARU</federacion>
+            <name>anexo_contaniba</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-41</itextId>
+            <federacion>FARU</federacion>
+            <name>lagarto_millar</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-42</itextId>
+            <federacion>FARU</federacion>
+            <name>churinashi</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-43</itextId>
+            <federacion>FARU</federacion>
+            <name>tahuanti</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-44</itextId>
+            <federacion>FARU</federacion>
+            <name>union_san_francisco</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-45</itextId>
+            <federacion>FARU</federacion>
+            <name>alto_cohengua</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-46</itextId>
+            <federacion>FARU</federacion>
+            <name>santa_rosa_de_laulate</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-47</itextId>
+            <federacion>FARU</federacion>
+            <name>pandishari</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-48</itextId>
+            <federacion>FACRU</federacion>
+            <name>alto_cocani</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-49</itextId>
+            <federacion>FACRU</federacion>
+            <name>shenontiari</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-50</itextId>
+            <federacion>FACRU</federacion>
+            <name>centro_selva_corintoni</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-51</itextId>
+            <federacion>FACRU</federacion>
+            <name>chipani</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-52</itextId>
+            <federacion>FACRU</federacion>
+            <name>anacayali</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-53</itextId>
+            <federacion>FACRU</federacion>
+            <name>tzivetari</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-54</itextId>
+            <federacion>FACRU</federacion>
+            <name>san_taniari</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-55</itextId>
+            <federacion>FACRU</federacion>
+            <name>nueve_hermanos</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-56</itextId>
+            <federacion>OIYPA</federacion>
+            <name>pucani</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-57</itextId>
+            <federacion>OIYPA</federacion>
+            <name>centro_anari</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-58</itextId>
+            <federacion>OIYPA</federacion>
+            <name>mision_unini</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-59</itextId>
+            <federacion>OIYPA</federacion>
+            <name>santa_elena</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-60</itextId>
+            <federacion>OIYPA</federacion>
+            <name>nuevo_belen</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-61</itextId>
+            <federacion>OIYPA</federacion>
+            <name>centro_huao</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-62</itextId>
+            <federacion>OIYPA</federacion>
+            <name>santa_clara</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_comunidades-63</itextId>
+            <federacion>OIYPA</federacion>
+            <name>ramon_castilla</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="listado_federaciones">
+        <root>
+          <item>
+            <itextId>static_instance-listado_federaciones-0</itextId>
+            <name>OIRA</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_federaciones-1</itextId>
+            <name>FABU</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_federaciones-2</itextId>
+            <name>OIYPA</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_federaciones-3</itextId>
+            <name>FARU</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_federaciones-4</itextId>
+            <name>FECONADIS</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="listado_madera">
+        <root>
+          <item>
+            <itextId>static_instance-listado_madera-0</itextId>
+            <name>tornillo</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-1</itextId>
+            <name>cachimbo</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-2</itextId>
+            <name>huqiruro</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-3</itextId>
+            <name>shihuahuaco</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-4</itextId>
+            <name>copaiba</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-5</itextId>
+            <name>lupuna</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-6</itextId>
+            <name>cumala</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-7</itextId>
+            <name>moena</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-8</itextId>
+            <name>almendra</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-9</itextId>
+            <name>catahua</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-10</itextId>
+            <name>estoraque</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-11</itextId>
+            <name>tahuari</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-12</itextId>
+            <name>pashaco</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-13</itextId>
+            <name>cedro</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-14</itextId>
+            <name>caoba</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-15</itextId>
+            <name>alcanfor_moena</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-16</itextId>
+            <name>yanchama</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_madera-17</itextId>
+            <name>otro</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="listado_tipo">
+        <root>
+          <item>
+            <itextId>static_instance-listado_tipo-0</itextId>
+            <name>fuera_poa</name>
+          </item>
+          <item>
+            <itextId>static_instance-listado_tipo-1</itextId>
+            <name>semillero</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/formulario_incidente/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/formulario_incidente/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/formulario_incidente/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/formulario_incidente/deviceid" type="string"/>
+      <bind nodeset="/formulario_incidente/federacion" type="select1"/>
+      <bind nodeset="/formulario_incidente/comunidad" type="select1"/>
+      <bind nodeset="/formulario_incidente/tipo" type="select1"/>
+      <bind nodeset="/formulario_incidente/grupo_semillero" relevant=" /formulario_incidente/tipo =&quot;semillero&quot;"/>
+      <bind nodeset="/formulario_incidente/grupo_semillero/pca" type="string"/>
+      <bind nodeset="/formulario_incidente/grupo_semillero/faja" type="int"/>
+      <bind nodeset="/formulario_incidente/grupo_semillero/arbol" type="int"/>
+      <bind nodeset="/formulario_incidente/grupo_donde/coordinadas" type="geopoint"/>
+      <bind nodeset="/formulario_incidente/grupo_donde/utm_x" type="decimal"/>
+      <bind nodeset="/formulario_incidente/grupo_donde/utm_y" type="decimal"/>
+      <bind nodeset="/formulario_incidente/foto" type="binary"/>
+      <bind nodeset="/formulario_incidente/especie" type="select1"/>
+      <bind nodeset="/formulario_incidente/especie_otro" relevant=" /formulario_incidente/especie =&quot;otro&quot;" type="string"/>
+      <bind nodeset="/formulario_incidente/dap" type="decimal"/>
+      <bind nodeset="/formulario_incidente/nombre_monitor" type="select1"/>
+      <bind nodeset="/formulario_incidente/nombre_monitor_otro" relevant=" /formulario_incidente/nombre_monitor =&quot;otro&quot;" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/formulario_incidente/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="format-date-time( /formulario_incidente/start ,'%b-%e %H:%M')" nodeset="/formulario_incidente/meta/instanceName" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 appearance="quick" ref="/formulario_incidente/federacion">
+      <label>¿De que federación es la comunidad?</label>
+      <item>
+        <label>OIRA</label>
+        <value>OIRA</value>
+      </item>
+      <item>
+        <label>FABU</label>
+        <value>FABU</value>
+      </item>
+      <item>
+        <label>OIYPA</label>
+        <value>OIYPA</value>
+      </item>
+      <item>
+        <label>FARU</label>
+        <value>FARU</value>
+      </item>
+      <item>
+        <label>FECONADIS</label>
+        <value>FECONADIS</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/formulario_incidente/comunidad">
+      <label>¿En que comunidad estas?</label>
+      <itemset nodeset="instance('listado_comunidades')/root/item[federacion= /formulario_incidente/federacion ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <select1 appearance="quick" ref="/formulario_incidente/tipo">
+      <label>Actividad Ilegal</label>
+      <item>
+        <label>Tala fuera de POA</label>
+        <value>fuera_poa</value>
+      </item>
+      <item>
+        <label>Tala de semillero</label>
+        <value>semillero</value>
+      </item>
+    </select1>
+    <group ref="/formulario_incidente/grupo_semillero">
+      <label>Tala de Semillero</label>
+      <input ref="/formulario_incidente/grupo_semillero/pca">
+        <label>Numero de P.C.A</label>
+      </input>
+      <input ref="/formulario_incidente/grupo_semillero/faja">
+        <label>Numero de Faja</label>
+      </input>
+      <input ref="/formulario_incidente/grupo_semillero/arbol">
+        <label>Numero de Arbol</label>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/formulario_incidente/grupo_donde">
+      <label>Ubicación</label>
+      <input ref="/formulario_incidente/grupo_donde/coordinadas">
+        <label>Tomar un punto de GPS</label>
+        <hint>Si no sale su punto, puedes escribir UTM X y Y abajo</hint>
+      </input>
+      <input ref="/formulario_incidente/grupo_donde/utm_x">
+        <label>X</label>
+      </input>
+      <input ref="/formulario_incidente/grupo_donde/utm_y">
+        <label>Y</label>
+      </input>
+    </group>
+    <upload mediatype="image/*" ref="/formulario_incidente/foto">
+      <label>Foto</label>
+      <hint>Tomar un foto del arbol talado o el lugar</hint>
+    </upload>
+    <select1 appearance="quick" ref="/formulario_incidente/especie">
+      <label>Especie talado</label>
+      <item>
+        <label>Tornillo</label>
+        <value>tornillo</value>
+      </item>
+      <item>
+        <label>Cachimbo</label>
+        <value>cachimbo</value>
+      </item>
+      <item>
+        <label>Huqiruro</label>
+        <value>huqiruro</value>
+      </item>
+      <item>
+        <label>Shihuahuaco</label>
+        <value>shihuahuaco</value>
+      </item>
+      <item>
+        <label>Copaiba</label>
+        <value>copaiba</value>
+      </item>
+      <item>
+        <label>Lupuna</label>
+        <value>lupuna</value>
+      </item>
+      <item>
+        <label>Cumala</label>
+        <value>cumala</value>
+      </item>
+      <item>
+        <label>Moena</label>
+        <value>moena</value>
+      </item>
+      <item>
+        <label>Almendra</label>
+        <value>almendra</value>
+      </item>
+      <item>
+        <label>Catahua</label>
+        <value>catahua</value>
+      </item>
+      <item>
+        <label>Estoraque</label>
+        <value>estoraque</value>
+      </item>
+      <item>
+        <label>Tahuari</label>
+        <value>tahuari</value>
+      </item>
+      <item>
+        <label>Pashaco</label>
+        <value>pashaco</value>
+      </item>
+      <item>
+        <label>Cedro</label>
+        <value>cedro</value>
+      </item>
+      <item>
+        <label>Caoba</label>
+        <value>caoba</value>
+      </item>
+      <item>
+        <label>Alcanfor Moena</label>
+        <value>alcanfor_moena</value>
+      </item>
+      <item>
+        <label>Yanchama</label>
+        <value>yanchama</value>
+      </item>
+      <item>
+        <label>Otro…</label>
+        <value>otro</value>
+      </item>
+    </select1>
+    <input ref="/formulario_incidente/especie_otro">
+      <label>Nombre de Especie</label>
+    </input>
+    <input ref="/formulario_incidente/dap">
+      <label>Diametro (DAP)</label>
+    </input>
+    <select1 appearance="quick" ref="/formulario_incidente/nombre_monitor">
+      <label>Selecionar tu nombre</label>
+      <item>
+        <label>Rogelio Casique Coronado</label>
+        <value>rogelio_casique</value>
+      </item>
+      <item>
+        <label>Llerry</label>
+        <value>llerry</value>
+      </item>
+      <item>
+        <label>Laster Isminio Rodriguez</label>
+        <value>laster_isminio_rodriguez</value>
+      </item>
+      <item>
+        <label>Hestalin Rios Coronado</label>
+        <value>hestalin_rios_coronado</value>
+      </item>
+      <item>
+        <label>Otro…</label>
+        <value>otro</value>
+      </item>
+    </select1>
+    <input ref="/formulario_incidente/nombre_monitor_otro">
+      <label>Escribir tu nombre abajo</label>
+    </input>
+  </h:body>
+</h:html>
