@@ -1,7 +1,7 @@
 <h3>
-  <%= u.capitalize(t(get('tipo'))) %>
+  <%= t(get('tipo')) %>
   <br>
-  <small><%= u.capitalize(t(get('comunidad'))) %></small>
+  <small><%= t(get('comunidad')) %></small>
 </h3>
 
 <div class="image-wrapper">
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <th>Comunidad:</th>
-    <td><%= u.capitalize(t(get('comunidad'))) %></td>
+    <td><%= t(get('comunidad')) %></td>
   </tr>
   <% if (get('pca') !== 'not_recorded') { %>
   <tr>
@@ -43,15 +43,17 @@
   <% } %>
   <tr>
     <th>Especie talado:</th>
-    <td><%= u.capitalize(t(_getOther('especie','especie_other'))) %></td>
+    <td><%= t(_getOther('especie','especie_other')) %></td>
   </tr>
+  <% if (get('dap') !== 'not_recorded') { %>
   <tr>
     <th>Diametro (DAP):</th>
     <td><%= get('dap') %></td>
   </tr>
+  <% } %>
   <tr>
     <th>Monitor:</th>
-    <td><%= u.capitalize(t(_getOther('nombre_monitor','nombre_monitor_other'))) %></td>
+    <td><%= t(_getOther('nombre_monitor','nombre_monitor_other')) %></td>
   </tr>
   <tr>
     <th>Fecha de visita:</th>
