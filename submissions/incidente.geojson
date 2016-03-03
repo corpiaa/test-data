@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40821129,
+          37.75659711
+        ]
+      },
+      "properties": {
+        "start": "2016-03-02T17:33:26.916-04",
+        "end": "2016-03-02T18:30:41.371-04",
+        "today": "2016-03-02",
+        "deviceid": 359301050127959,
+        "federacion": "FABU",
+        "comunidad": "centro_pucani",
+        "tipo": "fuera_poa",
+        "grupo_donde": {
+          "coordinadas": {
+            "latitude": 37.75659711,
+            "longitude": -122.40821129,
+            "altitude": -37,
+            "precision": 40
+          }
+        },
+        "foto": {
+          "url": "https://simple-odk.s3.amazonaws.com/e83ab91c-66ed-4f3c-8531-2e3ff43e1605/1456957820850.jpg",
+          "originalFilename": "1456957820850.jpg"
+        },
+        "especie": "shihuahuaco",
+        "dap": 50,
+        "nombre_monitor": "otro",
+        "nombre_monitor_otro": "Gregor",
+        "meta": {
+          "instanceId": "uuid:e83ab91c-66ed-4f3c-8531-2e3ff43e1605",
+          "instanceName": "Mar-2 17:33",
+          "formId": "incidente",
+          "version": 1,
+          "deviceId": "imei:359301050127959",
+          "submissionTime": "2016-03-03T02:36:49.994Z"
+        }
+      }
+    }
+  ]
+}
