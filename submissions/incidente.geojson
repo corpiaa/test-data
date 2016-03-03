@@ -124,6 +124,47 @@
           "submissionTime": "2016-03-03T02:48:19.809Z"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.75433126,
+          -10.7298102
+        ]
+      },
+      "properties": {
+        "start": "2016-02-05T10:47:45.066-04",
+        "end": "2016-02-05T11:14:00.740-04",
+        "today": "2016-02-05",
+        "deviceid": 359301050127959,
+        "federacion": "FARU",
+        "comunidad": "lagarto_millar",
+        "tipo": "fuera_poa",
+        "grupo_donde": {
+          "coordinadas": {
+            "latitude": -10.7298102,
+            "longitude": -73.75433126,
+            "altitude": 258,
+            "precision": 5
+          }
+        },
+        "foto": "1454684053427.jpg",
+        "especie": "tornillo",
+        "dap": 12,
+        "nombre_monitor": "marianico_toribiano",
+        "acompanante": "\nRogelio",
+        "empresa": "Rube n",
+        "meta": {
+          "instanceId": "uuid:0b57ec30-a554-4b6a-9cd7-3d69ccaeba76",
+          "instanceName": "Feb-5 10:47",
+          "formId": "incidente",
+          "version": 3,
+          "deviceId": "imei:359301050127959",
+          "submissionTime": "2016-03-03T03:03:12.212Z"
+        }
+      }
     }
   ]
 }
