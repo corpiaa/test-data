@@ -90,6 +90,40 @@
           "submissionTime": "2016-03-03T02:47:03.014Z"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "start": "2016-03-02T22:47:40.305-04",
+        "end": "2016-03-02T22:48:16.668-04",
+        "today": "2016-03-02",
+        "deviceid": 359301050127959,
+        "federacion": "OIYPA",
+        "comunidad": "santa_elena",
+        "tipo": "semillero",
+        "grupo_semillero": {
+          "pca": 20,
+          "faja": 2,
+          "arbol": 2
+        },
+        "grupo_donde": {},
+        "foto": {
+          "url": "https://simple-odk.s3.amazonaws.com/aa7aced3-3288-4679-b25b-250b122a4bc8/1456973286025.jpg",
+          "originalFilename": "1456973286025.jpg"
+        },
+        "especie": "shihuahuaco",
+        "dap": 20,
+        "nombre_monitor": "laster_isminio_rodriguez",
+        "meta": {
+          "instanceId": "uuid:aa7aced3-3288-4679-b25b-250b122a4bc8",
+          "instanceName": "Mar-2 22:47",
+          "formId": "incidente",
+          "version": 5,
+          "deviceId": "imei:359301050127959",
+          "submissionTime": "2016-03-03T02:48:19.809Z"
+        }
+      }
     }
   ]
 }
