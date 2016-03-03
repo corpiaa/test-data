@@ -43,6 +43,53 @@
           "submissionTime": "2016-03-03T02:36:49.994Z"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40855462,
+          37.75677883
+        ]
+      },
+      "properties": {
+        "start": "2016-03-02T22:45:27.012-04",
+        "end": "2016-03-02T22:46:59.752-04",
+        "today": "2016-03-02",
+        "deviceid": 359301050127959,
+        "federacion": "FABU",
+        "comunidad": "inkare",
+        "tipo": "semillero",
+        "grupo_semillero": {
+          "pca": 2,
+          "faja": 2,
+          "arbol": 2
+        },
+        "grupo_donde": {
+          "coordinadas": {
+            "latitude": 37.75677883,
+            "longitude": -122.40855462,
+            "altitude": -14,
+            "precision": 11
+          }
+        },
+        "foto": {
+          "url": "https://simple-odk.s3.amazonaws.com/bb29b24a-f995-4420-a0e2-118efefe6acc/1456973204164.jpg",
+          "originalFilename": "1456973204164.jpg"
+        },
+        "especie": "shihuahuaco",
+        "dap": 20,
+        "nombre_monitor": "laster_isminio_rodriguez",
+        "meta": {
+          "instanceId": "uuid:bb29b24a-f995-4420-a0e2-118efefe6acc",
+          "instanceName": "Mar-2 22:45",
+          "formId": "incidente",
+          "version": 5,
+          "deviceId": "imei:359301050127959",
+          "submissionTime": "2016-03-03T02:47:03.014Z"
+        }
+      }
     }
   ]
 }
