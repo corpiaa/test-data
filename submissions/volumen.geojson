@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "start": "2016-02-05T10:39:15.138-04",
+        "end": "2016-02-05T10:42:01.684-04",
+        "today": "2016-02-05",
+        "deviceid": 359301050127959,
+        "federacion": "OIRA",
+        "comunidad": "apinihua",
+        "fecha": "2016-02-05",
+        "meta": {
+          "instanceId": "uuid:bf671bf8-e57c-46b4-a9f0-cc4802709d97",
+          "instanceName": "apinihua",
+          "formId": "volumen",
+          "version": 1,
+          "deviceId": "imei:359301050127959",
+          "submissionTime": "2016-03-03T03:03:11.677Z"
+        }
+      }
+    }
+  ]
+}
