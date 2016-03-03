@@ -1,5 +1,5 @@
 {
-  "data": "submissions/incidentes.geojson",
+  "data": "submissions/incidente.geojson",
   "templates": [{
     "file": "templates/info-pane.tpl"
   }],
